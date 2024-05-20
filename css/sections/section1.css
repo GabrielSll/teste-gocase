@@ -1,0 +1,34 @@
+.flex-layout {
+    display: flex;
+    align-items: center;
+    gap: 360px;
+    padding-top: 60px;
+}
+
+.descricao-titulo {
+    padding-top: 20px;
+}
+
+.rateds-2 ul li {
+    display: flex;
+    list-style: none;
+    color: var(--cor-1);
+    background-color: var(--cor-1);
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.rateds-2 ul li img {
+    margin-right: 10px;
+}
+
+.reviews {
+    padding-right: 60px;
+}
+
+.guru {
+    margin-right: 30px;
+}
+

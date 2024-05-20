@@ -1,0 +1,14 @@
+/* Global */
+
+@import url("./global/global.css");
+
+/* Sections */
+
+@import url("./sections/section1.css");
+@import url("./sections/section2.css");
+
+/* Utilidades */
+
+@import url("./utilidades/cores.css");
+@import url("./utilidades/container.css");
+@import url("./utilidades/tipografia.css");
