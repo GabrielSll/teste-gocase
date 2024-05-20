@@ -1,6 +1,7 @@
-.flex-layout {
+.layout {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 360px;
     padding-top: 60px;
 }
@@ -9,26 +10,27 @@
     padding-top: 20px;
 }
 
-.rateds-2 ul li {
+.rateds {
+    padding: 40px;
+}
+
+.rateds ul li {
     display: flex;
     list-style: none;
     color: var(--cor-1);
-    background-color: var(--cor-1);
+    background-color: var(--cor-4);
     font-weight: bold;
     padding: 20px;
     margin-bottom: 20px;
     align-items: center;
 }
 
-.rateds-2 ul li img {
+.rateds ul li img {
     margin-right: 10px;
 }
 
-.reviews {
-    padding-right: 60px;
+@media (max-width: 375px) {
+    .flex-layout {
+        display: inline-block;
+    }
 }
-
-.guru {
-    margin-right: 30px;
-}
-
