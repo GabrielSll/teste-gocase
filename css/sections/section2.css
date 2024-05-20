@@ -19,6 +19,10 @@
     margin-top: 80px;
 }
 
+.verified {
+    margin-left: 10px;
+}
+
 .perfil {
     display: flex;
     align-items: center;

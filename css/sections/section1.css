@@ -30,7 +30,9 @@
 }
 
 @media (max-width: 375px) {
-    .flex-layout {
-        display: inline-block;
+    .section-1 {
+        display: block;
+        margin-left: 20px;
+        gap: 20px;
     }
 }
